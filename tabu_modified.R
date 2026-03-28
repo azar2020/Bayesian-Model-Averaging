@@ -7,6 +7,7 @@ tabu.search = function(x, start, whitelist, blacklist, score, extra.args,
   # cache the number of nodes.
   n.nodes = length(nodes)
   # set the iteration counter.
+      # set the iteration counter.
   iter = 1
   # check whether the score is score-equivalent.
   score.equivalence = is.score.equivalent(score, nodes, extra.args)
